@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# CryptoSizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CryptoSizer is a cryptocurrency position size calculator designed to help traders determine the optimal position size based on their risk tolerance and desired profit. With an intuitive and sleek interface, CryptoSizer supports calculating position sizes in USD or SOL (Solana) and allows users to adjust their risk-reward ratio, stop loss, take profit, and more.
 
-## Available Scripts
+## Features
+- **Live Solana Price:** Displays the current price of Solana (SOL) fetched from an external API.
+- **Position Size Calculator:** Calculate the ideal position size based on stop loss, take profit, and risk amount in USD.
+- **Risk-Reward Ratio:** Automatically calculates the risk-reward ratio based on the user's inputs.
+- **Currency & Percentage Input:** Supports adjustments in both USD and percentage formats for stop loss, take profit, and risk amount.
+- **Dark Mode Support:** Toggle between dark and light modes for a customized user experience.
 
-In the project directory, you can run:
+## Demo
+
+Check out a live demo of CryptoSizer here: [[Demo Link](https://cryptosizer.vercel.app/)]
+
+## Installation
+
+## Prerequisites
+- **Node.js** (v16 or above)
+
+## Clone the repository
+### `git clone https://github.com/xkenchii/CryptoSizer.git`
+
+## Navigate to the project folder
+
+### `cd CryptoSizer`
+
+## Install dependencies
+
+### `npm install`
+
+## Run the application
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This will start the application on http://localhost:3000.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Contributing
 
-### `npm test`
+We welcome contributions to CryptoSizer! If you'd like to contribute, please fork the repository, create a new branch, and submit a pull request with your changes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Steps to contribute:
+    Fork the repository
+    Create a new branch (git checkout -b feature/your-feature)
+    Make your changes and commit them (git commit -m 'Add new feature')
+    Push to the branch (git push origin feature/your-feature)
+    Create a pull request
 
-### `npm run build`
+## License
+CryptoSizer is open-source and licensed under the MIT License. See the LICENSE file for more details.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contact
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+For any questions, suggestions, or issues, please open an issue or reach out via email at [kohhxuanqi@gmail.com].
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Made with ❤️ by [[xkenchii](https://github.com/xKeNcHii)]
