@@ -25,8 +25,8 @@ const Calculator = () => {
     const riskRewardRatio = takeProfit / stopLoss; // Risk-Reward Ratio
     const positionSizeUSD = (riskAmount / (stopLoss / 100)).toFixed(2); // Position size in USD
     const profitUSD = ((takeProfit / 100) * positionSizeUSD).toFixed(2); // Profit in USD
-    const positionSizeSOL = solPrice ? (positionSizeUSD / solPrice).toFixed(2) : 0; // Position size in SOL
-    const profitSOL = solPrice ? (profitUSD / solPrice).toFixed(2) : 0; // Profit in SOL
+    const positionSizeSOL = solPrice ? (positionSizeUSD / solPrice) : 0; // Position size in SOL
+    const profitSOL = solPrice ? (profitUSD / solPrice) : 0; // Profit in SOL
 
     return { riskRewardRatio, positionSizeUSD, profitUSD, positionSizeSOL, profitSOL };
   };
